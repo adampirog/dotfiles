@@ -1,0 +1,17 @@
+{
+	"python.pythonPath": "python",
+    "python.linting.pylintEnabled": true,
+    "python.linting.flake8Enabled": false,
+    "python.formatting.provider": "black",
+    "python.formatting.blackArgs": ["--target-version", "py311", "--line-length", "79"],
+    "pyright.typeCheckingMode": "off",
+    "python.linting.mypyEnabled": false,
+    "pyright.inlayHints.functionReturnTypes": false,
+    "pyright.inlayHints.variableTypes": true,
+    "pyright.organizeimports.provider": "isort",
+    "python.sortImports.args": ["--profile", "black"],
+    "diagnostic.errorSign": "",
+    "diagnostic.warningSign": "",
+    "diagnostic.infoSign": "",
+    "diagnostic.hintSign": ""
+}
